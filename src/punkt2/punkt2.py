@@ -46,7 +46,7 @@ def compute_interval_distribution(data):
 def plot_histogram(data, num_bins):
     """Строит гистограмму данных."""
     plt.hist(data, bins=num_bins, range=(min(data), max(data)), edgecolor='black')
-    plt.xlabel('Рублей')
+    plt.xlabel('Миллиардов рублей')
     plt.ylabel('Частота')
     plt.title('Гистограмма потребительских расходов населения')
     plt.show()
